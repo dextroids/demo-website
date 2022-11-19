@@ -1,0 +1,52 @@
+.main-block{
+  display: grid;
+  grid-template-columns: 350px 150px 150px;
+  column-gap: 16px;
+  vertical-align: top;
+  row-gap: 16px;
+}
+
+.pic{
+  width: 100%;
+  height: 100%;
+
+}
+.block-1{
+  height: 290px;
+  background-color: lightblue;
+}
+
+
+.block-2{
+  display: grid;
+  grid-template-rows:150px;
+  height: 135px;
+  row-gap: 5px;
+  background-color:lightpink;
+}
+.block-3{
+  display: grid;
+      grid-template-rows:150px;
+      height: 135px;
+      row-gap: 5px;
+      background-color:lightpink
+}
+.block-4{
+  
+  background-color: lightcoral;
+  height: 130px;
+}
+.block-5{
+  background-color: lightgray;
+  height: 135px;
+
+}
+.block-6{
+  background-color: lightgray;
+  height: 135px;
+}
+.block-7{
+  background-color: lightblue;    
+  width: 320px;
+  height: 130px;
+}
